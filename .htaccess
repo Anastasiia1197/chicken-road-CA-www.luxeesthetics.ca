@@ -1,6 +1,0 @@
-RewriteEngine On
-
-# --- Редирект только с главной страницы на ?page=88 ---
-RewriteCond %{HTTP_HOST} ^(www\.)?ra-hascher\.de$ [NC]
-RewriteCond %{REQUEST_URI} ^/?$
-RewriteRule ^$ https://www.ra-hascher.de/impressum/ [R=301,L]
