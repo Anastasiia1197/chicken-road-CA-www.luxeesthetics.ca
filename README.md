@@ -13,7 +13,12 @@ This repository contains all technical requirements and structure for creating S
 ## 📂 Pages Overview
 
 ### 🏠 Main Page  
-🔗 [Template Link](https://drive.google.com/drive/folders/13kUIDyK6bZFuwnZf_NYRcikZdkNP4QYv?usp=drive_link)
+🔗 [Пример шаблона сайта (главная страница +ЕЕАТ)](https://drive.google.com/drive/folders/13kUIDyK6bZFuwnZf_NYRcikZdkNP4QYv?usp=drive_link)
++ сраница en-ca 
+в head(главная и en-ca) прописываем:
+    <link rel="alternate" hreflang="en" href="https://www.luxeesthetics.ca/">
+    <link rel="alternate" hreflang="en-CA" href="https://www.luxeesthetics.ca/en-ca/">
+    <link rel="canonical" href="https://www.luxeesthetics.ca/en-ca/">
 
 ### 📜 EEAT Pages
 - About Us  
@@ -28,22 +33,21 @@ This repository contains all technical requirements and structure for creating S
 
 ## 🧩 Technical Requirements
 
-- **Geo Mention Frequency:** 5–10 times per article (Canada 🇨🇦, CA – 1–2 times)
-- **Currency:** Use € (Euro) symbol where needed
-- **Uniqueness:** > 90% (check via any reliable plagiarism tool)
-- **AI Detection (ZeroGPT):** must be **< 30%** – do **not submit** if higher
-- **Visuals:**  
-  - Add **3–4 high-quality images** (no watermarks, not pixelated)  
-  - Include images inside the article + send separately in a ZIP archive
-- **Content Mix:**  
-  - ✅ 1 table (📊)  
-  - ✅ 1 bulleted list (•)  
-  - ✅ 1 numbered list (1️⃣ 2️⃣ 3️⃣)  
-  - ✅ 3–5 FAQs at the end  
-- **Formatting:** Use H1–H3 structure as described below
-- **Style:** Informative, engaging, with quotes and brand mentions (1–2 times)
-- **Include:** 1–2 relevant user quotes about gameplay, bonuses, or interface
-
+- **Частота упоминания гео:** 5–10 раз в статье (Канада 🇨🇦, Калифорния – 1–2 раза)
+- **Валюта:** Используйте символ € (евро) при необходимости
+- **Уникальность:** > 90% (проверьте с помощью любого надёжного инструмента для проверки на плагиат)
+- **Обнаружение с помощью ИИ (ZeroGPT):** должно быть **< 30%** – **не отправляйте**, если выше
+- **Визуальное оформление:**
+- Добавьте **3–4 высококачественных изображения** (без водяных знаков, без пикселизации)
+- Добавьте изображения в статью и отправьте их отдельно в ZIP-архиве
+- **Микс контента:**
+- ✅ 1-3 таблица (📊)
+- ✅ 2-4 маркированный список (•)
+- ✅ 1-2 нумерованный список (1️⃣ 2️⃣ 3️⃣)
+- ✅ 5-8 часто задаваемых вопросов в конце
+- **Форматирование:** Используйте структуру H1–H3, как описано ниже
+- **Стиль:** Информативный, увлекательный, с цитатами и упоминаниями бренда (1–2 раза)
+- **Включите:** 1–2 релевантные цитаты пользователей об игровом процессе, бонусах или интерфейсе
 ---
 
 ## 🏗️ SEO Structure
